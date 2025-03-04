@@ -13,11 +13,11 @@
 
     <header class="header">
         <a href="#">        
-            <img class="header_logo" src="./IMG/Logo_header.png" alt="logo_cooking">
+            <img class="header__logo" src="./IMG/Logo_header.png" alt="logo_cooking">
         </a>
 
 
-        <nav class="header_menu">
+        <nav class="header__menu">
             <a href="#">Recetario</a>
             <a href="#">Primeros</a>
             <a href="#">Segundos</a>
@@ -30,30 +30,32 @@
 
     </header>
 
-    <div class="cabecera">
+    <side class="cabecera">
+        
+        <img class="cabecera__img" src="./IMG/img_Cabecera.png" alt="chili cabecera">
 
-        <div class="cabecera_textos">
+        <div class="cabecera__textos">
             <h1 class="cabecera_h1">Chili con carne</h1>
             <p class="cabecera_chef">de la chef Marta Mateo</p>
         </div>
 
-        <img class="cabecera_img" src="./IMG/img_Cabecera.png" alt="chili cabecera">
-    </div>
+    </side>
 
     <main class="main">
-        <article class="main_content">
-            <img class="main_img" src="./IMG/img_Main.png" alt="receta chili">
+        <article class="main__content">
+            <img class="main__img" src="./IMG/img_Main.png" alt="receta chili">
             
-            <section class="main_receta">
-                <article class="main_historia">
-                    <h3 class="main__h3">Historia</h3>
+            <section class="main__receta">
+                <article class="main__historia">
+                    <h2 class="main__h2">Historia</h2>
+                    <hr>
                     <p class="main__texto-historia">El chili con carne es un platillo icónico de la cocina tex-mex, pero su origen es motivo de debate. Su historia se remonta al siglo XIX en la región de Texas, cuando los vaqueros, soldados y colonos preparaban guisos con carne seca, chiles y especias para alimentarse en largas travesías.</p>
                 </article>
 
-                <article class="main_ingredientes">
+                <article class="main__ingredientes">
                     <h4>Ingredientes</h4>
                     <hr>
-                    <ul>
+                    <ul class="main__listaIngredientes">
                         <li>2 dientes de ajo</li>
                         <li>250g de chile jalapeño en conserva</li>
                         <li>500 g de carne picada de ternera</li>
@@ -61,7 +63,7 @@
                         <li>Sal y Pimienta negra molida</li>
                         <li>1 cucharadita de postre de chile en polvo</li>
                         <li>1 cucharadita de postre de comino en polvo</li>
-                        <li>1 cucharadita de postre de pimentón dulce</li>
+                        <li>1 cucharadita de   postre de pimentón dulce</li>
                         <li>1 cucharadita pequeña de pimentón picante</li>
                         <li>400 g de tomate triturado</li>
                         <li>300 ml de caldo de pollo</li>
@@ -69,44 +71,74 @@
                     </ul>
                     <hr>
                     <div class="main__indicaciones">
-                        
+                        <P> <b>Tiempo de preparación:</b> 55 minutos</P>
+                        <p><b>Valor nutricional:</b>  240 // 350 kcal</p>
+                        <p><b>Categoría:</b> Plato principal</p>
                     </div>
                 </article>
-
-            </section>
-
-        </article>
-
-        <article class="main_galería">
-
-            <section class="main_layout">
-                <img class="main_layout--img" src="./IMG/img_Receta-1.png" alt="receta">
-                <h4></h4>
             </section> 
 
-            <section class="main_layout">
-                <img class="main_layout--img" src="./IMG/img_Receta-2.png" alt="receta">
-                <h4></h4>
+        </article>
+
+                <article class="main__preparacion">
+                    <h2>Preparación</h2>
+                    <hr>
+                    <ol class="main__listaPreparacion">
+                        <li>Picamos la cebolla y el pimiento en dados pequeños. Calentamos 3 o 4 cucharadas de aceite en una sartén amplia, y cuando esté caliente sofreímos la cebolla y el pimiento a fuego suave.</li>
+
+                        <li>Cuando la cebolla esté transparente, añadimos el ajo picado, la guindilla, el comino y removemos.</li>
+
+                        <li>Incorporamos la carne picada, el pimentón, removemos y dejamos cocinar a fuego medio-alto hasta que la carne se ponga blanca.</li>
+
+                        <li>Incorporamos el tomate triturado, sal, azúcar, orégano, removemos y dejamos cocinar a fuego suave unos 20 minutos, hasta que la salsa comience a espesar.</li>
+
+                        <li>Cuando la salsa esté más espesa, añadimos las alubias (previamente enjuagadas muy bien bajo el chorro de agua y escurridas) y dejamos cocinar todo unos minutos.</li>
+
+                        <li>Servimos espolvoreado con el cilantro picado.</li>
+                    </ol>
+                </article>
+                <img src="./IMG/img_Receta.png" alt="chile terminado" class="main__imgResultado">
+
+
+        
+
+        <article class="main__galeria">
+
+            <h2>Recetas Relacionadas</h2>
+            <hr>
+
+
+            <section class="main__layout">
+                <img class="main__layout--img" src="./IMG/img_Receta-1.png" alt="receta">
+                <h4>Tacos al pastor</h4>
+                <p>por Marta Mateos</p>
+            </section> 
+
+            <section class="main__layout">
+                <img class="main__layout--img" src="./IMG/img_Receta-2.png" alt="receta">
+                <h4>Nachos con queso</h4>
+                <p>por Marta Mateos</p>
             </section>
 
-            <section class="main_layout">
-                <img class="main_layout--img" src="./IMG/img_Receta-3.png" alt="receta">
-                <h4></h4>
+            <section class="main__layout">
+                <img class="main__layout--img" src="./IMG/img_Receta-3.png" alt="receta">
+                <h4>Enchiladas</h4>
+                <p>por Marta Mateos</p>
             </section>
 
         </article>
 
-    <a href="#">¡Compartela con tu mejor amigo!</a>
+        <button class="main__buttonComparte"><a href="#">¡Compartela con tu mejor amigo!</a></button>
 
     </main>
 
     <footer class="footer">
 
-        <img class="footer_logo" src="./IMG/Logo_footer.png" alt="logo cooking">
+        <img class="footer__logo" src="./IMG/Logo_footer.png" alt="logo cooking">
 
-        <p class="footer_text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quisquam reiciendis autem dicta maiores debitis labore, vel voluptates! Repellat possimus saepe dolorem quidem fugit magnam ab unde nam illum deleniti.</p>
+        <p class="footer__text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quisquam reiciendis autem dicta maiores debitis labore, vel voluptates! Repellat possimus saepe dolorem quidem fugit magnam ab unde nam illum deleniti.</p>
 
-        <nav class="footer_rrss">
+        <nav class="footer__rrss">
 
             <div><i class="fa-brands fa-instagram"></i></div>
 
@@ -116,7 +148,7 @@
 
         </nav>
 
-        <p class="footer_text2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="footer__text2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
     </footer>
 
